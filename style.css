@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_title-color {
+    color: #526D82;
+}
+
+.section_text {
+    text-align: center;
+    color: #526D82;
+    border-bottom: #526D82 solid 2px;
+    width: 200px;
+}
+.my_e {
+    border-radius: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.skills_data {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-bottom: 6px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .skills_icon {
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+  }
+  
+  .skills_name {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact_input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid;
+    margin-bottom: 2px;
+  }
+  
+  .contact_button {
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: auto;
+  }
+.form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
